@@ -16,7 +16,20 @@ module.exports	=	{
 				loaders:	[{
 								test:	/\.jsx$/,		exclude:	/node_modules/,
 								loader:	'babel-loader',
-								query:	{	presets:	[	'es2015',	'stage-2',	'react']	}
-				}]
+								query:	{	presets:	[	'es2015',	'stage-2',	'react']
+							}
+				},
+
+				{
+			  test: /\.(jpg|png|svg)$/,
+			  use: {
+			    loader: "url-loader",
+			    options: {
+			      limit: 25000,
+			    },
+			  },
+			}
+
+			]
 		}
 }

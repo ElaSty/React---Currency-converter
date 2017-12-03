@@ -1,0 +1,154 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  color: #404040;
+  font-family: 'Cinzel', Arial, sans-serif;
+}
+
+  .mainContainer {
+    width: 75%;
+    overflow: auto;
+  }
+
+  header {
+    background-color: #8AAA95;
+    width: 100%;
+    color: white;
+    height: 120px;
+
+   }
+
+
+   div.logo {
+  //   border: 1px solid #8AAA95;
+     background-color: #8AAA95;
+     width: 200px;
+     height: 50px;
+     line-height: 50px;
+     text-align: center;
+     display: inline-block;
+     margin-top: 35px;
+     margin-left: 30px;
+   }
+
+h1.mainHeader {
+  color: white;
+  font-size: 24px;
+}
+
+h1.headerAvarageRates, h1.headerCalculator {
+  color: #95bca2;
+  font-size: 20px;
+}
+
+.centerHeader {
+  background-image: url("../images/4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 120px;
+}
+
+.avarageRates {
+  height: 180px;
+}
+
+table, th, td {
+  border: 1px solid #95bca2;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  height: 45px;
+  background-color: #96cea9;
+}
+
+img {
+  margin-right: 5px;
+  height: 15px;
+  width: 20px;
+}
+
+h1.headerAvarageRates {
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px
+}
+
+h1.headerCalculator {
+  padding: 10px;
+  text-align: center;
+}
+
+form {
+  border: 1px solid #95bca2;
+  border-radius: 5px;
+  background-color: #96cea9;
+  width: 75%;
+  height: 150px;
+}
+label.currency {
+  padding: 7px;
+  display: block;
+  align: center;
+  font-weight: bold;
+}
+
+label.amount {
+  display: block;
+  padding: 7px;
+  font-weight: bold;
+}
+
+span {
+  margin-right: 5px;
+}
+
+input {
+  padding: 7px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+button {
+  padding: 7px;
+  margin-left: 15px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+select {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.result {
+  display:block;
+  text-align: center;
+  width: 25%;
+  height: 50px;
+  border: 1px solid #95bca2;
+  border-radius: 5px;
+  margin-top: 15px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.resultNumber {
+  font-weight: bold;
+}
+
+.footer {
+  text-align: center;
+  color: gray;
+  font-size: 12px;
+  margin: 20px;
+}
